@@ -1,2 +1,2 @@
 # attendance-management-system
-A web-based attendance management system using HTML, CSS, JavaScript and MySQL.
+A web-based attendance management system using HTML, CSS and JavaScript.
