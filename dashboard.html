@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Attendance System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Dashboard</h2>
+        <table id="attendanceTable">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Present</th>
+                    <th>Absent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td><input type="checkbox" class="present"></td>
+                    <td><input type="checkbox" class="absent"></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td><input type="checkbox" class="present"></td>
+                    <td><input type="checkbox" class="absent"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="saveBtn">Save Attendance</button>
+        <p id="saveMsg" class="success"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
